@@ -8,7 +8,8 @@ TEXT = \
 	005.md \
 	006.md \
 	007.md \
-	008.md
+	008.md \
+	009.md
 PANDOC_ARGS = \
 	--toc
 
