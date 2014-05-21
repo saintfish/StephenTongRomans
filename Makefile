@@ -11,7 +11,11 @@ TEXT = \
 	008.md \
 	009.md \
 	010.md \
-	011.md
+	011.md \
+	012.md \
+	013.md \
+	014.md \
+	015.md
 PANDOC_ARGS = \
 	--toc
 
