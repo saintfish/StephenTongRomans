@@ -5,7 +5,7 @@ PANDOC_ARGS = \
 	--toc
 
 $(OUT) : $(TITLE) $(METADATA) $(TEXT)
-	pandoc $(PANDOC_ARGS) -t epub3 -o "$@" -f markdown $(TITLE) $(TEXT)
+	pandoc $(PANDOC_ARGS) -t epub -o "$@" -f markdown $(TITLE) $(TEXT)
 
 all : $(OUT)
 
